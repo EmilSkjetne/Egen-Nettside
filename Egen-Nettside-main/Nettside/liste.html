@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="liste.css">
+    <title>Min Side</title>
+  </head>
+  <body>
+
+    <!--- her skal jeg lage menyen som skal lede folk til de forskjellige nettsidene --->
+
+    <nav>
+      <div class="flextape">
+        <div><a href="seriøs.html">Home</a></div>
+        <div><a class="list"href="liste.html">List</a></div>
+        <div><a href="video.html">Video</a></div>
+      </div>
+    </nav>
+
+    <!-- Jeg bruker <div> her fordi jeg vil ha bilde under alt det andre. Og dette var måten jeg fant ut hvordan man skal gjøre det. -->
+
+    <div class="bilde">
+      <!--- Her kaller jeg på bildet --->
+      <img src="nettside bakgrunn.png" alt="4k wallpaper pc" width="100%" height="100%">
+
+      <!-- Dette er den boksen over bildet -->
+      <p class="boks"></p>
+
+      <!-- Her begynner du og skrive innholdet -->
+      <!-- Flexboks for overskrift -->
+      <div class="tekst2">
+
+        <h2 class "h2">Lister</h2>
+      </div>
+
+      <!-- Flexbox i en flexboks, jeg skjønner nesten flexbox men det er noe som ikke sitter helt
+      derfor har jeg en flexbox i en flexbox-->
+      <div class="tekst3">
+
+        <br>
+        <div class="container">
+
+          <!-- Orderd list -->
+        <ol class="ol1">
+          <li>Æ</li>
+          <li>veit</li>
+          <li>ikke</li>
+          <li>ka</li>
+          <li>æ</li>
+          <li>ska</li>
+          <li>lag</li>
+          <li>liste</li>
+          <li>av</li>
+        </ol>
+
+        <!-- Padding mellom listene -->
+        <p class="p1"></p>
+
+        <!-- Unorderd list -->
+        <ul class="ul2">
+          <li>ka</li>
+          <li>ska</li>
+          <li>æ</li>
+          <li>lag</li>
+          <li>liste</li>
+          <li>av</li>
+          <li>?</li>
+        </ul>
+
+        <!-- Her lukker jeg alle div taggene -->
+      </div>
+      </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

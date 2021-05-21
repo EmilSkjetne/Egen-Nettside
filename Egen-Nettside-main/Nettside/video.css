@@ -1,0 +1,91 @@
+/* Her tar jeg bort alle margin og padding så jeg kan styre det selv */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Dette er noe som jeg vil ha i alt, derfor plasserte jeg det i body{} */
+body{
+  background-size: contain;
+  font-family: Arial;
+}
+
+/* Dette er baren på top */
+nav{
+  width: 100%;
+  height: 55px;
+  background: white;
+}
+
+/*  Dette er flexboks for navigasjons knappene */
+.flextape{
+  width: 100%;
+  background-color: transparent;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+}
+
+/* Her hadde jeg padding på list linken så at de ikke skulle være helt ved siden av hverandre */
+.list{
+  padding: 200px;
+}
+
+/* Dette er boksen over bildet */
+.boks{
+  width: 70%;
+  height: 900px;
+  margin: 5px auto;
+  padding: 5px;
+  padding-top: 50px;
+  background-color: #D3D3D3;
+  text-align: center;
+  position: relative;
+}
+
+/* Her tar eg bort streken som er under hyperlinks og bytter fargen fra blå til svart */
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Her gjør jeg bildet blurry */
+img{
+  position: fixed;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+/* Her lager jeg en flexboks for innholdet på siden */
+.video2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+/* Dette er plasseringen for videoen */
+iframe{
+  position: relative;
+  bottom: 800px;
+  left: 350px;
+}
+
+/* Dette er plasseringen for mp3 filen */
+.rick{
+  position: relative;
+  bottom:800px;
+  left: 350px;
+}
+
+/* Her er plasseringen til overskriften */
+.h21{
+  text-align: center;
+  position: relative;
+  bottom: 900px;
+  font-size: 40px;
+}

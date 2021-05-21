@@ -1,0 +1,96 @@
+/* Tar bort padding of margin så jeg har kontroll over det */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Ting som jeg vil ha i hele body taggen */
+body{
+  background-size: contain;
+  font-family: Arial;
+}
+
+/* Navigasjonsbaren på toppen */
+nav{
+  width: 100%;
+  height: 60px;
+  background: white;
+}
+
+/* Flexboks til navigasjonsbaren */
+.flextape{
+  width: 100%;
+  background-color: transparent;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+}
+
+/* Padding mellom navigasjons knappene */
+.list{
+  padding: 200px;
+}
+
+/* Tar bort streken under navigasjons knappene og gjør den svart istede for blå */
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Boksen som er over bildet */
+.boks{
+  width: 70%;
+  height: 900px;
+  margin: 5px auto;
+  padding: 5px;
+  padding-top: 50px;
+  background-color: #D3D3D3;
+  text-align: center;
+  position: relative;
+}
+
+/* Gjør bildet blurry */
+img{
+  position: fixed;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+/* flexboks for overskrift */
+.tekst2{
+  position: absolute;
+  top: 90px;
+  left: 45%;
+  font-size: 40px;
+  display: flex;
+}
+
+/* Padding mellom listene */
+.p1{
+  background-color: transparent;
+  padding: 100px;
+}
+
+/* Container for flexbox aka for listene */
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 5px;
+  margin: auto;
+  padding-right: 200px;
+}
+
+/* Flexboks */
+.tekst3{
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  font-size: 30px;
+  display: flex;
+}

@@ -1,0 +1,92 @@
+/* Tar bort padding og margin så jeg har kontroll over det */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Ting som jeg vil ha i hele body taggen */
+body{
+  background-size: contain;
+  font-family: Arial;
+}
+
+/* Navigasjonsbaren */
+nav{
+  width: 100%;
+  height: 60px;
+  background: white;
+  color: black;
+}
+
+/* Flexboks for Navigasjonsbaren */
+.flextape{
+  width: 100%;
+  background-color: transparent;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+}
+
+/* Padding mellom navigasjons knappene */
+.list{
+  padding: 200px;
+}
+
+/* Tar bort streken under hyperlinken og gjør den svart istede for blå */
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Boksen som er over bildet */
+.boks{
+  width: 70%;
+  height: 900px;
+  margin: 5px auto;
+  padding: 5px;
+  padding-top: 50px;
+  background-color: #D3D3D3;
+  position: relative;
+}
+
+/* Gjør bildet blurry */
+.bakgrunn{
+  position: fixed;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+/* plasserer overskriften */
+.h2{
+  text-align: center;
+  font-size: 50px;
+}
+
+/* gjør alt sentrert, det er ikke flexboks her fordi jeg kunne ikke bruke det før etter denne ble lagd */
+.tekst{
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  left: 40%;
+}
+
+/* Lager en border rundt tabellen */
+table{
+  border: 1px solid black;
+}
+
+/* Table header og farge for den */
+th{
+  background-color: cyan;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+/* table cell border */
+td{
+  border: 1px solid black;
+}

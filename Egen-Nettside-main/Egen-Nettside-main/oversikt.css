@@ -1,1 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.containerNav{
+    display: flex;
+    font-family: Poppins;
+}
+
+#navBar{
+    display: flex;
+    background-color: lightslategray;
+    height: 5rem;
+    width: 17rem;
+} 
 

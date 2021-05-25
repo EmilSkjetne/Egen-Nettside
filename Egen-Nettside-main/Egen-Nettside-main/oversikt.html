@@ -7,11 +7,37 @@
     <div class="containerNav">
 
         <nav id="navBar">
-            <p class="contact">Contact</p>
-            <p class="home">Home</p>
-            <p class="cv">Cv</p>
+            <a class="contact" href="#">Contact</a>
+            <a class="home" href="#">Home</a>
+            <a class="cv" href="#">Cv</a>
         </nav>
 
     </div>
+
+    <div class="one">
+        
+    </div>
+
+<script>
+
+    var prevScrollpos = window.pageYOffset;
+
+    window.onscroll = function(){
+
+        var currentScrollpos = window.pageYOffset
+
+        if(prevScrollpos > currentScrollpos) {
+            document.getElementById("navbar").style.top = "0";
+        }
+        else{
+            document.getElementById("navbar").style.top = "-100"
+        }
+
+        prevScrollpos = currentScrollpos;
+
+    }
+
+</script>
+
 </body>
 </html>

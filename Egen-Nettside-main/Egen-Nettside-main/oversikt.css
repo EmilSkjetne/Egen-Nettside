@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    color: black;
 }
 
 .containerNav{
@@ -12,6 +14,25 @@
     display: flex;
     background-color: lightslategray;
     height: 5rem;
-    width: 17rem;
+    width: 24rem;
+    flex-direction: row;
+    position: fixed;
+    transition: top 0.8s;
 } 
 
+
+.contact, .home, .cv{
+    display: flex;
+    height: 5rem;
+    width: 8rem;
+    align-items: center;
+    padding-left: 2.6rem;
+}
+
+.contact:hover, .home:hover, .cv:hover{
+    background-color: gray;
+}
+
+.one{
+    
+}

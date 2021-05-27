@@ -6,6 +6,10 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+  }
+
 .containerNav{
     display: flex;
     font-family: Poppins;
@@ -39,27 +43,16 @@
 
 .one{
     background-color: #ff6b6c;
-    width: 100%;
+    width: 78,80rem;
     height: 42rem;
     display: flex;
     align-items: center;
-    
-}
-
-.two{
-    height: 3rem;
-}
-
-.img{
-    height: 52.65rem;
-    filter: blur(1px);
-    z-index: 0;
 }
 
 .tContainer{
     display: flex;
-    width: 80%;
-    height: 15rem;
+    width: 70%;
+    height: 18rem;
     background-color: rgba(0,0,0, 0.2);
     text-align: center;
     border: solid white 3px;
@@ -67,7 +60,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 15%;
     font-size: 30px;
 }
 
@@ -75,5 +68,45 @@
     display: flex;
 }
 .tBox{
-    padding-bottom: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+
+.two{
+    display: flex;
+}
+
+.html, .css, .js{
+    width: 10rem;
+    filter: blur(0px);
+    position: absolute;
+    z-index: 100;
+}
+
+.img{
+    background-image: url("https://i.imgur.com/AngyYAy.jpg");
+    background-size: 80rem;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(1px);
+    height: 50rem;
+    width: 80rem;
+    z-index: 1;
+}
+
+.html{
+    padding-left: 65%;
+    padding-top: 23rem;
+    clip-path: polygon(0 68%, 100% 68%,100% 100%,0 100%);
+}
+
+.css{
+    padding-left: 25%;
+    padding-top: 23rem;
+    clip-path: polygon(0 68%, 100% 68%,100% 100%,0 100%);
+}
+
+.js{
+    padding-left: 45%;
+    padding-top: 26rem;
+    clip-path: polygon(0 0, 100% 0,100% 100%,0 100%);
 }

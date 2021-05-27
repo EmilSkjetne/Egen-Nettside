@@ -95,13 +95,13 @@
 .html{
     padding-left: 65%;
     padding-top: 22rem;
-    clip-path: polygon(0 71%, 100% 71%,100% 100%,0 100%);
+    clip-path: polygon(0 68%, 100% 68%,100% 100%,0 100%);
 }
 
 .css{
     padding-left: 25%;
     padding-top: 22rem;
-    clip-path: polygon(0 71%, 100% 71%,100% 100%,0 100%);
+    clip-path: polygon(0 68%, 100% 68%,100% 100%,0 100%);
 }
 
 .js{
@@ -151,4 +151,10 @@
 
 .cssT{
     left: 25%;
+}
+
+.three{
+    background-color: #ffc145;
+    height: 50rem;
+    display: flex;
 }

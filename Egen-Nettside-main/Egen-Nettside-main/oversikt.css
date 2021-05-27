@@ -94,38 +94,61 @@
 
 .html{
     padding-left: 65%;
-    padding-top: 26rem;
+    padding-top: 22rem;
     clip-path: polygon(0 71%, 100% 71%,100% 100%,0 100%);
 }
 
 .css{
     padding-left: 25%;
-    padding-top: 26rem;
+    padding-top: 22rem;
     clip-path: polygon(0 71%, 100% 71%,100% 100%,0 100%);
 }
 
 .js{
     padding-left: 45%;
-    padding-top: 29rem;
+    padding-top: 25rem;
     clip-path: polygon(0 0, 100% 0,100% 100%,0 100%);
 }
 
-.tboxProgram{
+.tboxInt{
     display: flex;
     position: absolute;
     height: 14rem;
     width: 38%;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     border: solid white 3px;
     color: white;
     justify-content: center;
     align-items: center;
     font-size: 3em;
     left: 31%;
-    top: 50rem;
+    top: 49rem;
 }
 
-.tboxContainer{
+.htmlT, .cssT, .javascriptT{
     display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    height: 6rem;
+    width: 10rem;
+    z-index: 100;
+    border: solid white 3px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    top: 79rem;
+}
+
+.htmlT{
+    left: 65%;
+}
+
+.javascriptT{
+    left: 45%;
+}
+
+.cssT{
+    left: 25%;
 }

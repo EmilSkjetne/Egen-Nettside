@@ -157,4 +157,27 @@
     background-color: #ffc145;
     height: 50rem;
     display: flex;
+    flex-direction: row;
+}
+
+.game, .edit{
+    height: 9rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: solid white 3px;
+    font-size: 1.5em;
+    color: white;
+    position: absolute;
+    top: 106rem;
+}
+
+.game{
+    left: 25%;
+}
+
+.edit{
+    left: 55%;
 }
